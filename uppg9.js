@@ -13,15 +13,18 @@ function uppg9 (){
                     
         for (let i = 0; i < arr.length; i++) {      // För varje tal i listan görs en loop
                   
-            if (arr[i] % 2 === 0)                   // Använd modulus operatorn för att kolla om talet är jämt (resten efter division med 2 är 0)
-                console.log(arr[i], " jämt")        // Skriv ut talet och "jämt" i konsolen
+            if (arr[i] % 2 === 0) {                 // Använd modulus operatorn för att kolla om talet är jämt (resten efter division med 2 är 0)
+                console.log(arr[i], "jämt")         // Skriv ut talet och "jämt" i konsolen
 
-            else
-                console.log(arr[i], " udda")
+            }
+            
+            else {
+                console.log(arr[i], "udda")
         }
     }
   
     oddoreven(nummer);                              // Anropar funktionen och skickar med listan som argument    
+}
 }
 
 module.exports = { uppg9 };
