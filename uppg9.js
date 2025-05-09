@@ -9,7 +9,7 @@ function uppg9 (){
 
     const nummer = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-    function oddoreven(arr) {                       // Funktion som tar in en lista som argument
+    function sort(arr) {                       // Funktion som tar in en lista som argument
                     
         for (let i = 0; i < arr.length; i++) {      // För varje tal i listan görs en loop
                   
@@ -23,7 +23,7 @@ function uppg9 (){
         }
     }
   
-    oddoreven(nummer);                              // Anropar funktionen och skickar med listan som argument    
+    sort(nummer);                              // Anropar funktionen och skickar med listan som argument    
 }
 }
 
